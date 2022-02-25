@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=resume_collector007
+POSTGRES_USER=MdcTaklWhGwXoWklCvbXWudbUZYZswgx
+POSTGRES_PASSWORD=VqTnLRii1Ur76mdkyowdmDXKMHJsOZSyEWXqhuiqrVAk86BYGO2O5N5v10cC98yM

@@ -1,0 +1,32 @@
+POST  http://localhost:8000/api/v1/get-chain/
+Content-Type: application/json
+Authorization: Token c732891b1722e45faf49d106d9a65e6c8080af57
+
+{
+    "email":"zohaibabbasza12@outlook.com"
+}
+#########
+GET http://localhost:8000/api/v1/resume/
+Content-Type: application/json
+Authorization: Token c732891b1722e45faf49d106d9a65e6c8080af57
+#########
+GET http://localhost:8000/api/v1/resume/1/
+Content-Type: application/json
+Authorization: Token c732891b1722e45faf49d106d9a65e6c8080af57
+#########
+POST http://localhost:8000/api/v1/resume/
+Content-Type: application/json
+Authorization: Token c732891b1722e45faf49d106d9a65e6c8080af57
+
+{
+    "information":"Resume for python dev",
+    "cv":"file object",
+    "s_tags":"javascript,django,test",
+    "g_tags":"balanced,team work",
+    "reference":"za@za.com"
+
+}
+#########
+DELETE http://localhost:8000/api/v1/resume/1/
+Content-Type: application/json
+Authorization: Token c732891b1722e45faf49d106d9a65e6c8080af57
